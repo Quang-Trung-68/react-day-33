@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import "./App.css";
+import "@/App.css";
+import { ROUTES } from "@/routes";
 
-import { ROUTES } from "./routes.js";
 
 function App() {
   return (

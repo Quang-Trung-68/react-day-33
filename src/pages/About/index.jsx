@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <h1>About page</h1>
+      <h1>Giới thiệu</h1>
       <p>Học Lập Trình Để Đi Làm</p>
       <p>
         Điện thoại: 08 1919 8989 Email: contact@fullstack.edu.vn Địa chỉ: Số 1,

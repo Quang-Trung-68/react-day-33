@@ -1,7 +1,7 @@
 export default function News() {
   return (
     <>
-      <h1>News page</h1>
+      <h1>Tin tức</h1>
       <h2>
         [HTML - CSS - JS tại F8] Một thời mày mò học, lục lại được trang web cũ
         – chia sẻ cùng anh em

@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <h1> Home page</h1>
+      <h1>Trang chủ</h1>
       <h2>
         TRẢI NGHIỆM HỌC THỬ REACT NATIVE, DEVOPS, C++ VÔ CÙNG CHẤT LƯỢNG CÙNG F8
       </h2>

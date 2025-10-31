@@ -1,7 +1,7 @@
 export default function Register() {
   return (
     <>
-      <h1>Register page</h1>
+      <h1>Đăng ký tài khoản mới</h1>
       <form>
         <div>
           <label htmlFor="username">Username:</label>
@@ -15,7 +15,7 @@ export default function Register() {
           <label htmlFor="reEnterPassword">Enter password again:</label>
           <input required id="reEnterPassword" type="password" name="reEnterPassword"></input>
         </div>
-        <button type="submit">Register</button>
+        <button type="submit">Đăng ký</button>
       </form>
     </>
   );

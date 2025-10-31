@@ -1,16 +1,28 @@
-# React + Vite
+# F8 Fullstack Project - Bài tập về nhà Day 33
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dự án học ReactJS và Routing cơ bản.
 
-Currently, two official plugins are available:
+## 📦 Cấu trúc dự án
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```txt
+src/
+├── components/ # Các thành phần giao diện (Header, Footer, v.v.)
+├── configs/ # Cấu hình chung (đường dẫn, constants)
+├── pages/ # Các trang (Home, About, Login, Register, News)
+├── routes.js # Định nghĩa tuyến đường (Routing)
+└── main.jsx # Điểm khởi đầu của ứng dụng
+```
+## 🚀 Cách cài đặt & chạy dự án
 
-## React Compiler
+```bash
+# Clone repo
+git clone https://github.com/Quang-Trung-68/react-day-33.git
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+# Di chuyển vào thư mục
+cd react-day-33
 
-## Expanding the ESLint configuration
+# Cài đặt package
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Chạy ứng dụng
+npm run dev

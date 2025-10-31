@@ -1,5 +1,5 @@
+import { ROUTES } from "@/routes";
 import { NavLink } from "react-router";
-import { ROUTES } from "../../routes.js";
 
 export default function Header() {
   return (
