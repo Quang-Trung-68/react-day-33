@@ -16,7 +16,8 @@ body {
 }
 
 /* ==== HEADER ==== */
-header,footer {
+header,
+footer {
   width: 100%;
   background-color: #1e293b;
   color: #fff;
@@ -27,8 +28,8 @@ header,footer {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-main{
-    min-height: 1000px;
+main {
+  min-height: 1000px;
 }
 
 .logo {
@@ -42,7 +43,8 @@ nav {
   justify-content: center;
 }
 
-nav a {
+nav a,
+a {
   color: #cbd5e1;
   text-decoration: none;
   padding: 6px 12px;
@@ -50,13 +52,30 @@ nav a {
   transition: 0.2s;
 }
 
-nav a:hover {
+nav a:hover,
+a:hover {
   background-color: #334155;
   color: #fff;
 }
 
 .active-link {
   background-color: #2563eb;
+  color: #fff;
+}
+
+.back-to-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  color: #2563eb;
+}
+
+.back-to-home a:hover{
+  opacity: 0.8;
   color: #fff;
 }
 

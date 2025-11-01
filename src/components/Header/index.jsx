@@ -9,15 +9,17 @@ export default function Header() {
         {ROUTES.map((rou) => {
           return rou.children.map((child, index) => {
             return (
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "active-link" : "inactive-link"
-                }
-                key={index}
-                to={child.path}
-              >
-                {child.title}
-              </NavLink>
+              child.isShowInNav && (
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "active-link" : "inactive-link"
+                  }
+                  key={index}
+                  to={child.path}
+                >
+                  {child.title}
+                </NavLink>
+              )
             );
           });
         })}
